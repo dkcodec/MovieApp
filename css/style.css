@@ -151,7 +151,7 @@ body{
 }
 
 .modal__movie-backdrop{
-    width: 100%;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -177,4 +177,17 @@ ul li{
     height: 100%;
     overflow: hidden;
 }
-    
+/* Pagination */
+
+.pagination {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
